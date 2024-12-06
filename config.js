@@ -1,0 +1,10 @@
+export const SERVER_SOCKET = "192.168.96.44:3000"
+export const BASE_URL = "http://" + SERVER_SOCKET + "/api";
+export const ROOM_URL = BASE_URL + "/room";
+export const SWITCH_URL = BASE_URL + "/switch";
+export const OUTLET_URL = BASE_URL + "/outlet";
+export const ROUTINE_URL = BASE_URL + "/routines";
+export const STATISTIC_URL = BASE_URL + "/statistic";
+export const LOGIN_URL = BASE_URL + "/users/login";
+export const REGISTER_URL = BASE_URL + "/users/register";
+export const LOGOUT_URL = BASE_URL + "/users/logout";
